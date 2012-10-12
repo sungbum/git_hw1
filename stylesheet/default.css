@@ -1,0 +1,68 @@
+html,body{color:#000;
+	background:#fff;
+	height: 100%;
+	padding:0;
+	font: 12px/18px "맑은 고딕", "Malgun Gothic", "굴림", "Gulim", Verdan, Arial, Tahoma;
+	}
+body{margin:0;}
+
+#wrap {width:100%; min-height:100%; margin:0; background-color:#fff; }
+
+#top {
+	margin:0;
+	height:100px; background-color:#0a626f;
+
+}
+#top_left{
+	margin:0;
+	width:300px;
+	float:left;
+
+}
+#menu ul li a{
+	float:left;
+	margin:30px;
+	width:80px;
+	color:#75c9dd; background-color:#0a626f;
+	display:block;
+	font: 20px "맑은 고딕","Malgun Gothic";
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+}
+#menu ul li a.selected {color:#fff;}
+#menu ul li a:hover {color:#fff;}
+
+
+
+
+#body {
+
+	padding-bottom:50px;
+	width:100%;
+	overflow:auto;
+
+}
+#body_content{
+	float:left;
+	margin-left:40px;
+
+
+}
+
+
+#bottom {
+	color:#75c9dd; background-color:#0a626f;
+	width: 100%;
+	height:40px;
+	position:fixed; bottom:0;
+	padding-top:5px;
+	padding-left:10px;
+	
+	
+}
+
+
+span.gray{color:#000; margin:0 5px 0 0 ;}
+h1 {color:#0a626f; font-size:20px; line-height:28px; font-weight:bold;}
+h2 {font-size:16px; line-height:24px; font-weight:bold;}
